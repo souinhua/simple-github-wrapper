@@ -7,14 +7,30 @@ This is a simple API to fetch GitHub user's profile with the foloowing details:
 - Number of public repositories
 - Average number of followers per repositories
 
-## 🚀 How to deploy
-
-#### Overview
+## 🚀 Installation
 This application is designed to run in the Laravel Sail environment. 
-So it is required to install the latest [Docker](https://www.docker.com) in your machine.
+So it is required to install the latest [Docker](https://www.docker.com) 
+and [Composer](https://getcomposer.org/) in your machine.
+
+To learn more about Laravel Sail, checkout their [documentation.](https://laravel.com/docs/8.x/sail)
 
 
-Clone the repo in your machine. 
+### Step 1: Clone the repo in your machine. 
 ```
 git clone git@github.com:souinhua/simple-github-wrapper.git simple-github-wrapper
+```
+Then cd into the newly created directory
+```
+cd simple-github-wrapper
+```
+
+### Step 1: Install Laravel Sail
+We have to install Sail
+```
+composer require laravel/sail --dev
+```
+After Sail has been installed, you may run the `sail:install` Artisan command. 
+This command will publish Sail's `docker-compose.yml` file to the root of your application:
+```
+php artisan sail:install
 ```
