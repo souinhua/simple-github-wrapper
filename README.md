@@ -15,7 +15,7 @@ and [Composer](https://getcomposer.org/) in your machine.
 To learn more about Laravel Sail, checkout their [documentation.](https://laravel.com/docs/8.x/sail)
 
 
-### Step 1: Clone the repo in your machine. 
+Clone the repo in your machine
 ```
 git clone git@github.com:souinhua/simple-github-wrapper.git simple-github-wrapper
 ```
@@ -23,14 +23,12 @@ Then cd into the newly created directory
 ```
 cd simple-github-wrapper
 ```
-
-### Step 1: Install Laravel Sail
-We have to install Sail
+Install all dependencies through composer
 ```
-composer require laravel/sail --dev
+composer install
 ```
-After Sail has been installed, you may run the `sail:install` Artisan command. 
-This command will publish Sail's `docker-compose.yml` file to the root of your application:
+Boot up Laravel Sail. This will create the docker containers and images
 ```
-php artisan sail:install
+./vendor/bin/sail up
 ```
+_This may take a few minutes._
