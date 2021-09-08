@@ -8,6 +8,13 @@ This is a simple API to fetch GitHub user's profile with the foloowing details:
 - Average number of followers per repositories
 
 ## 🚀 How to deploy
+
+**Overview**
+This application is designed to run in the Laravel Sail environment. 
+So it is required to install the latest Docker in your machine.
+
+https://www.docker.com/
+
 Clone the repo in your machine. 
 ```
 git clone git@github.com:souinhua/simple-github-wrapper.git simple-github-wrapper
