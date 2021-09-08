@@ -25,7 +25,7 @@ cd simple-github-wrapper
 ```
 Copy `.env.example` to `.env`
 ```
-cd .env.example .env
+cp .env.example .env
 ```
 Install all dependencies through composer
 ```
