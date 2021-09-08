@@ -23,6 +23,10 @@ Then cd into the newly created directory
 ```
 cd simple-github-wrapper
 ```
+Copy `.env.example` to `.env`
+```
+cd .env.example .env
+```
 Install all dependencies through composer
 ```
 composer install
@@ -32,3 +36,4 @@ Boot up Laravel Sail. This will create the docker containers and images
 ./vendor/bin/sail up
 ```
 _This may take a few minutes._
+
