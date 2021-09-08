@@ -9,7 +9,7 @@ This is a simple API to fetch GitHub user's profile with the foloowing details:
 
 ## 🚀 How to deploy
 
-**Overview**
+#### Overview
 This application is designed to run in the Laravel Sail environment. 
 So it is required to install the latest [Docker](https://www.docker.com) in your machine.
 
