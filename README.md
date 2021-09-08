@@ -11,9 +11,8 @@ This is a simple API to fetch GitHub user's profile with the foloowing details:
 
 **Overview**
 This application is designed to run in the Laravel Sail environment. 
-So it is required to install the latest Docker in your machine.
+So it is required to install the latest [Docker](https://www.docker.com) in your machine.
 
-https://www.docker.com/
 
 Clone the repo in your machine. 
 ```
